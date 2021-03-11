@@ -8,26 +8,72 @@
 
 </head>
 <body>
-    <header>
-        <div class="container">
+    <header id="header">
+        <div>
+            <img id="header-img" src="jpeg/silver-eagle.jfif" />
+        </div>
+        <nav id="nav-bar">
             <a>Features</a>
             <a>Why Silver Eagles?</a>
             <a>Pricing</a>
-        </div>
+        </nav>
     </header>
     <main>
         <h1>Quality, Government backed Money</h1>
         <form>
             <input type="email" id="email" name="email" placeholder="Email"/>
             <input type="submit" value="Start Stacking" />
-        </form>
-        <!--Font awesome icons to add; coins, comment dollar, wallet. Try font size of 48px with color of silver.-->
-        <i class="fas fa-comment-dollar"></i>
-        <i class="fas fa-coins"></i>
-        <i class="fas fa-wallet"></i>
+        </form><br /><br />
+        <section id="features">
+            <!--Font awesome icons to add; coins, comment dollar, wallet. Try font size of 48px with color of silver.-->
+            <div>
+                <i class="fas fa-comment-dollar"></i>
+                <h3>Premium Quality</h3>
+                <p>High quality three 9s fine silver. Some of the strictest standards in all silver coins minted.</p>
+            </div>
+            <div>
+                <i class="fas fa-coins"></i>
+                <h3>Easily Recognizable</h3>
+                <p>The walking liberty has been on the silver eagle since inseption in 1986. The silver eagle has had at lease three million coins minted from just the first mint.</p>
+            </div>
+            <div>
+                <i class="fas fa-wallet"></i>
+                <h3>Legal Tender</h3>
+                <p>Each silver eagel has a value of one dollar, but worth its weight in silver. Can be used in private trades based on its value.</p>
+            </div>
+        </section><br /><br />
+        <section id="video">
+            <iframe src="https://www.youtube.com/embed/DdYgNyQIeHg"></iframe>
+        </section>
+        <section id="pricing">
+            <div class="product" id="single">
+                <div>Single Silver</div>
+                <h2>Under $50</h2>
+                <ol>
+                    <li>Cheapest of options</li>
+                    <li>Any mint if chose</li>
+                    <li>Year specific or random</li>
+                </ol>
+                <button class="btn">Submit</button>
+            </div>
+            <div>
+                <div>Mini Monster Box</div>
+                <h2>$3k - $5k</h2>
+                <ol>
+                    <li>Cheaper per ounce</li>
+                    <li>One mint</li>
+                    <li>All from one year</li>
+                </ol>
+                <button class="btn">Submit</button>
+            </div>
+        </section>
     </main>
     <footer>
         <p>Jordan Leonard</p>
+        <!--Resize socials and link-->
+        <a href="https://github.com/jlynyrd18" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://www.twitch.tv/jlynyrd18" target="_blank"><i class="fab fa-twitch"></i></a>
+        <a href="https://www.instagram.com/leonard_2010" target="_blank"><i class="fab fa-instagram"></i></a>
     </footer>
 </body>
 </html>
