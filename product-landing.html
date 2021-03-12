@@ -5,27 +5,28 @@
     <meta charset="utf-8" />
     <title>Silver Eagle Product</title>
     <script src="https://kit.fontawesome.com/d361d98c4b.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="product-landing.css" />
 </head>
 <body>
     <header id="header">
         <div>
             <img id="header-img" src="jpeg/silver-eagle.jfif" />
         </div>
+        <!--Nav bar must always show even when scrolling down-->
         <nav id="nav-bar">
-            <a>Features</a>
-            <a>Why Silver Eagles?</a>
-            <a>Pricing</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#video" class="nav-link">Why Silver Eagles?</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
         </nav>
     </header>
     <main>
         <h1>Quality, Government backed Money</h1>
-        <form>
+        <form id="form" action="https://www.freecodecamp.org/email-submit">
             <input type="email" id="email" name="email" placeholder="Email"/>
-            <input type="submit" value="Start Stacking" />
+            <input type="submit" value="Start Stacking" id="submit"/>
         </form><br /><br />
         <section id="features">
-            <!--Font awesome icons to add; coins, comment dollar, wallet. Try font size of 48px with color of silver.-->
+            <!--Font awesome icons to add; coins, comment dollar, wallet. Try font size of 48px with color of silver.Flexbox for alignment?-->
             <div>
                 <i class="fas fa-comment-dollar"></i>
                 <h3>Premium Quality</h3>
@@ -45,26 +46,37 @@
         <section id="video">
             <iframe src="https://www.youtube.com/embed/DdYgNyQIeHg"></iframe>
         </section>
+        <!--Try flexbox for lineing up boxes-->
         <section id="pricing">
             <div class="product" id="single">
-                <div>Single Silver</div>
+                <div id="single-tag">Single Silver</div>
                 <h2>Under $50</h2>
                 <ol>
                     <li>Cheapest of options</li>
-                    <li>Any mint if chose</li>
+                    <li>Any mint if choose</li>
                     <li>Year specific or random</li>
                 </ol>
-                <button class="btn">Submit</button>
+                <button class="btn">Select</button>
             </div>
-            <div>
-                <div>Mini Monster Box</div>
+            <div class="product" id="mini">
+                <div id="mini-tag">Mini Monster Box</div>
                 <h2>$3k - $5k</h2>
                 <ol>
                     <li>Cheaper per ounce</li>
                     <li>One mint</li>
                     <li>All from one year</li>
                 </ol>
-                <button class="btn">Submit</button>
+                <button class="btn">Select</button>
+            </div>
+            <div class="product" id="monster">
+                <div id="monster-tag">Monster Box</div>
+                <h2>$20k+</h2>
+                <ol>
+                    <li>Cheapest per ounce</li>
+                    <li>Random or one year</li>
+                    <li>Comes in sealed container</li>
+                </ol>
+                <button class="btn">Select</button>
             </div>
         </section>
     </main>

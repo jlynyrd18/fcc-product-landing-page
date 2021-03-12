@@ -1,3 +1,53 @@
-﻿body
-{
+﻿body {
+    background-color: antiquewhite;
+}
+header {
+    position: relative;
+}
+h1 {
+    text-align: center;
+}
+#nav-bar {
+    overflow: hidden;
+    background-color: azure;
+}
+#nav-bar a {
+    float: right;
+    text-align: center;
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
+    padding: 14px 16px;
+}
+#nav-bar a:hover {
+    background-color: silver;
+}
+#header-img {
+    width: 9%;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+#form {
+    text-align: center;
+}
+#video {
+    
+}
+#single {
+    border: 3px solid black;
+}
+#single-tag {
+    background-color: silver;
+}
+#mini {
+    border: 3px solid black;
+}
+#mini-tag {
+    background-color: silver;
+}
+#monster {
+    border: 3px solid black;
+}
+#monster-tag {
+    background-color: silver;
 }
