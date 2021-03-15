@@ -2,19 +2,37 @@
     background-color: antiquewhite;
 }
 header {
-    position: relative;
+    
 }
 h1 {
     text-align: center;
 }
+h3 {
+    font-size: 26px;
+}
+p {
+    font-size: 18px;
+}
+ol {
+    text-decoration: none;
+}
+.icon {
+    color: silver;
+}
+.pricing {
+    
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+}
 #nav-bar {
     overflow: hidden;
     background-color: azure;
+    height: 55px;
 }
 #nav-bar a {
-    float: right;
-    text-align: center;
-    font-size: 36px;
+    font-size: 46px;
     text-decoration: none;
     color: black;
     padding: 14px 16px;
@@ -23,31 +41,58 @@ h1 {
     background-color: silver;
 }
 #header-img {
-    width: 9%;
-    border-radius: 50%;
-    border: 3px solid black;
+    width: 35%;
 }
 #form {
     text-align: center;
 }
-#video {
+#email {
+
+}
+#features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+#premium {
     
+}
+#easily {
+
+}
+#legal {
+
+}
+#video {
+    text-align: center;
+}
+#pricing {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 #single {
     border: 3px solid black;
+    text-align: center;
 }
 #single-tag {
     background-color: silver;
+    font-size: 34px;
 }
 #mini {
     border: 3px solid black;
+    text-align: center;
 }
 #mini-tag {
     background-color: silver;
+    font-size: 34px;
 }
 #monster {
     border: 3px solid black;
+    text-align: center;
 }
 #monster-tag {
     background-color: silver;
+    font-size: 34px;
 }
