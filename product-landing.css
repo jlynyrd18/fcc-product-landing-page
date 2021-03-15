@@ -4,6 +4,9 @@
 header {
     
 }
+main {
+    margin-top: 100px;
+}
 h1 {
     text-align: center;
 }
@@ -16,8 +19,12 @@ p {
 ol {
     text-decoration: none;
 }
+footer {
+    border-top: 2px solid black;
+}
 .icon {
     color: silver;
+    padding-right: 35px;
 }
 .pricing {
     
@@ -25,6 +32,8 @@ ol {
 #header {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
 }
 #nav-bar {
     overflow: hidden;
@@ -36,6 +45,7 @@ ol {
     text-decoration: none;
     color: black;
     padding: 14px 16px;
+    
 }
 #nav-bar a:hover {
     background-color: silver;
@@ -53,19 +63,29 @@ ol {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 75%;
-}
-#premium {
     
 }
+#premium {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 #easily {
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 #legal {
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#video-1 {
+    text-align: center;
 }
 #video {
-    text-align: center;
+    width: 500px;
+    height: 400px;
 }
 #pricing {
     display: flex;
@@ -95,4 +115,10 @@ ol {
 #monster-tag {
     background-color: silver;
     font-size: 34px;
+}
+@media only screen and (max-width: 600px) {
+    #video {
+        width: 50%;
+        height: 50%;
+    }
 }
